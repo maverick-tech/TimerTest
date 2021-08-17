@@ -56,4 +56,13 @@
       </plugin>
     </plugins>
   </build>
+  
+  <distributionManagement>
+    <repository>
+        <id>central</id>
+        <name>a0yl0dwnijhma-artifactory-primary-0-releases</name>
+        <url>https://testmaven123.jfrog.io/artifactory/newmaven-libs-release-local</url>
+    </repository>
+</distributionManagement>
+
 </project>
